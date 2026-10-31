@@ -1,0 +1,54 @@
+name: culturetap_app
+description: A mobile app for cultural tourism in Malaysia
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Database
+  sqflite: ^2.3.0    
+  path: ^1.8.3       
+
+  crypto: ^3.0.3
+
+
+  sqflite_common_ffi: ^2.3.0
+
+  shared_preferences: ^2.2.2
+
+  # ADD THESE NEW ONES:
+  pdf: ^3.10.6
+  printing: ^5.11.2
+  path_provider: ^2.1.0
+  open_file: ^3.3.3
+  share_plus: ^7.2.1
+  
+  # Peta (pilih salah satu atau keduanya)
+  google_maps_flutter: ^2.2.6  # Untuk Google Maps
+  # atau
+  flutter_map: ^5.0.0  # Untuk OpenStreetMap (gratis)
+  
+  # Geolocation
+  geolocator: ^9.0.2
+  
+  # HTTP untuk API
+  http: ^1.1.0
+  
+  # Image loading
+  cached_network_image: ^3.2.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+      - assets/images/
+      
